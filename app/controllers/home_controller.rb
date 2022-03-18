@@ -3,6 +3,6 @@ class HomeController < ApplicationController
   end
 
   def about
-      
+      @message = "I am nice guy"
   end
 end
